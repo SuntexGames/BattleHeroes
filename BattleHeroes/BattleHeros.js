@@ -23,7 +23,7 @@
 			// Ultimate Abilities
 				var vampiricModeCooldown = 1800; // 30 Sec Cooldown
 				var vampiricModeLifeSpan = 0; // 5 Sec Cooldown
-				var trackerModeCooldown = 1800; // 30 Sec Cooldown
+				var trackerModeCooldown = 2400; // 30 Sec Cooldown
 				var trackerModeLifeSpan = 0; // 5 Sec Cooldown
 	// Player Object
 	function Player(x,y,num,r,health,color){
@@ -157,16 +157,16 @@
 				this.speed *= -1;
 			}
 			if(this.x < player1.pos.x){
-			 this.x -= 0.5*this.speed;  
+			 this.x -= 0.3*this.speed;  
 			 }	
 			else if(this.x > player1.pos.x){
-			  this.x += 0.5*this.speed;  
+			  this.x += 0.3*this.speed;  
 			}
 			if(this.y > player1.pos.y){
-			  this.y += 0.5*this.speed;
+			  this.y += 0.3*this.speed;
 			}
 			else if(this.y < player1.pos.y){
-				this.y -= 0.5*this.speed;	
+				this.y -= 0.3*this.speed;	
 			}
 		}
 		else{
