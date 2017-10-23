@@ -297,7 +297,7 @@
 			else if(keyCode === 191){
 				if(trackerModeCooldown <= 0 && trackerModeLifeSpan <= 0){
 				player2.currentKey = "FSlash";
-				trackerModeLifeSpan = 300;
+				trackerModeLifeSpan = 180;
 				}
 			}
 			} 
